@@ -1,12 +1,10 @@
-
-
 const App = () => {
   return (
     // React Fragment
     <> 
       <header className="flex items-center justify-between p-4 bg-gray-800 text-white">
         <div>
-          <h1>logo</h1>
+          <h1 className="text-lg font-bold">logo</h1>
         </div>
         <nav>
           <a href="" className="hover:underline">Home</a>
@@ -19,8 +17,5 @@ const App = () => {
     </>
   )
 }
-
-
-
 
 export default App
