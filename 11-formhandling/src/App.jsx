@@ -1,0 +1,25 @@
+import React from "react";
+
+const App = () => {
+    const sumbite = (e) => {
+        e.preventDefault()
+        alert('form sumbite')
+        console.log('sumite');
+        
+       
+        
+    }
+  return (
+    <div>
+      <form onSubmit={(e) =>{
+        sumbite(e)
+      }}>
+        <input type="text" placeholder="Enter your name" />
+
+        <button>submit</button>
+      </form>
+    </div>
+  );
+};
+
+export default App;
